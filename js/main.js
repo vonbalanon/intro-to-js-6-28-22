@@ -1,25 +1,16 @@
  
- //coment: one line comment
+ // this is a single line comment
+
  /* 
  this is a mult-line comment
- */ //ens with */
+ i like cheese
+ */ 
 
- // variables
- 
- 
- yes = true; // boolean
- no = false; 
- Yes = 10;
- console.log(yes, Yes);
-
- count = 0; // number
- one = 1;
- two =2;
- three =3;
-
- title = 'Hello World'; // string
+ title = 'Von'; // string
+ paragraph = 'Chicken nuggets';
 
  document.querySelector('h1').innerHTML= title;
- document.querySelector('p').innerHTML = count;
+ document.querySelector('p').innerHTML = paragraph;
 
  console.log(title);
+ console.log(paragraph)
